@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 626px;
+    height: 486px;
+    margin: 64px auto;
+
+    text-align: center;
+}
+
+/* IMAGEM NO COMEÇO DA PAGINA */
+main #first {
+    margin-bottom: 32px;
+}
+
+/* TITULO */
+main h1 {
+    margin-bottom: 16px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+
+    color: rgba(63, 61, 86, 1);
+}
+main h1 span {
+    font-weight: 700;
+
+    color: rgba(238, 36, 255, 1);
+}
+
+/* TEXTOS */
+#text {
+    width: 540px;
+    margin: 0 auto 64px;
+
+    line-height: 22px;
+    text-align: center;
+
+    font-style: normal;
+    font-size: 15px;
+}
+main p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+    color: rgba(130, 130, 130, 1);
+}
+main p span {
+    font-weight: 700;
+
+    color: rgba(63, 61, 86, 1);
+}
+
+/* FOOTER */
+#footer {
+    text-align: center;
+}
+
+/* LINHA DO FOOTER */
+#line {
+    border: solid 1px rgba(236, 239, 242, 1);
+    width: 391px;
+    margin: 0 auto 16px;
+}
+
+/* LINKS */
+#links a + a {
+    margin-left: 42px;
+}
+#links a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: rgba(63, 61, 86, 1);
+
+}
+
+/* IMAGEM DO RODAPÉ */
+#last {
+  margin-top: 41px;
+  width: 1024px;
+}
